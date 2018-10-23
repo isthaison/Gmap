@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Gmap",
+    "description": "A very interesting project.",
+    "slug": "Gmap",
+    "privacy": "public",
+    "sdkVersion": "30.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.nson.gmap",
+      "supportsTablet": true,
+      "buildNumber": "1.0.0"
+
+    },
+    "android":{
+      "package": "com.nson.gmap",
+      "versionCode": 1,
+      "config":{
+        "googleMaps":{"apiKey":"AIzaSyDZDYTXX_OuvAD2zMqbkbtQNFk-uIiBCOA "}
+      }
+    }
+  }
+}
